@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_gnOpkPxCEemP5shpoGE8XQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_bqfOUAEaEeqP5shpoGE8XQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_d70-0AEaEeqP5shpoGE8XQ" elementId="project-ex-1031-pattern-match-pavlik.command.simplesearchengine" commandName="Simple Search Engine"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_iWU0MAEaEeqP5shpoGE8XQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_lNIpQAEaEeqP5shpoGE8XQ" elementId="project-ex-1031-pattern-match-pavlik.handler.0" contributionURI="bundleclass://project-ex-1031-pattern-match-Pavlik/handler.HandlerCodePatternMatch" command="_d70-0AEaEeqP5shpoGE8XQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_puSgQAEaEeqP5shpoGE8XQ" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_re3tEAEaEeqP5shpoGE8XQ" elementId="project-ex-1031-pattern-match-pavlik.partdescriptor.simplecodepatternmatchviewpavlik" label="Simple Code Pattern Match View Pavlik" iconURI="platform:/plugin/project-ex-1031-pattern-match-Pavlik/icons/sample.png" contributionURI="bundleclass://project-ex-1031-pattern-match-Pavlik/view.SimpleTableViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_AhnHEAEbEeqP5shpoGE8XQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_AhnHEQEbEeqP5shpoGE8XQ" elementId="project-ex-1031-pattern-match-pavlik.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_AhnHEgEbEeqP5shpoGE8XQ" elementId="id.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AhnHEwEbEeqP5shpoGE8XQ" elementId="project-ex-1031-pattern-match-pavlik.handledmenuitem.searchengine" label="Search Engine" command="_d70-0AEaEeqP5shpoGE8XQ"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

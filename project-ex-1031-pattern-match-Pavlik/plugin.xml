@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="projectex1031patternmatchpavlik">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/project-ex-1031-pattern-match-Pavlik/css/default.css">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="project-ex-1031-pattern-match-Pavlik.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>
